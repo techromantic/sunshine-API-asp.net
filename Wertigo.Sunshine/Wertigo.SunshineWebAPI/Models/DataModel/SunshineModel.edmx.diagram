@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f81ed6e71a5342cf87809429d70a0565" Name="Diagram1">
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.AspNetRole" Width="1.5" PointX="0.75" PointY="5.875" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="11.75" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="4.375" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.AspNetUser" Width="1.5" PointX="3" PointY="4.625" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.Task" Width="1.5" PointX="8.25" PointY="4.625" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.TaskSchedule" Width="1.5" PointX="10.5" PointY="5.5" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.TaskStatu" Width="1.5" PointX="6" PointY="7" />
+        <EntityTypeShape EntityType="Wertigo.SunshineModel.TaskType" Width="1.5" PointX="6" PointY="0.75" />
+        <AssociationConnector Association="Wertigo.SunshineModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="Wertigo.SunshineModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="Wertigo.SunshineModel.FK_Tasks_UserId" />
+        <AssociationConnector Association="Wertigo.SunshineModel.FK_Tasks_TaskStatusId" />
+        <AssociationConnector Association="Wertigo.SunshineModel.FK_Tasks_TaskTypeId" />
+        <AssociationConnector Association="Wertigo.SunshineModel.FK_TaskSchedules_TaskId" />
+        <AssociationConnector Association="Wertigo.SunshineModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
